@@ -1,0 +1,84 @@
+/* Genel app alanı */
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f8;
+  font-family: Arial, sans-serif;
+}
+
+/* Kart kutusu */
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+/* Başlık */
+.title {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input alanları */
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.input.result {
+  background: #f9f9f9;
+}
+
+/* Select alanları */
+.selectors {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.select {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.select:first-child {
+  margin-right: 10px;
+}
+
+.select:last-child {
+  margin-left: 10px;
+}
+
+/* Ok işareti */
+.arrow {
+  align-self: center;
+}
+
+/* Buton */
+.button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #4caf50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: #45a049;
+}
