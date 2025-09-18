@@ -3,7 +3,7 @@
 React + Vite ile geliştirilmiş basit bir döviz çevirici uygulaması.  
 A simple currency converter app built with React + Vite.  
 
-![preview](./screenshot.png)
+![preview](/excahnge.png)
 
 ---
 
@@ -63,3 +63,4 @@ npm run dev
 
 
  
+
